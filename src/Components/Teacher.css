@@ -1,0 +1,176 @@
+.main {
+  /* flex: 1; */
+  display: inline-block;
+  min-width: 100vh;
+  position: absolute;
+  margin-left: 30px;
+
+
+}
+
+.main .navbar {
+  padding: 0 10px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  margin: 20px 0;
+
+}
+
+
+.main .navbar img {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.search-bar {
+  border: 2px solid rgb(236, 234, 234);
+  padding: 5px 20px;
+  border-radius: 50px;
+
+}
+
+.search-bar input {
+  border: none;
+  padding: 0 20px;
+  font-size: 18px;
+  background: none;
+  outline: none;
+
+
+}
+
+
+.filter-container {
+  width: 200px;
+  height: 145px;
+  background-color: white;
+  padding: 20px ;
+  border-radius: 16px;
+  margin: 10px 0px;
+  box-shadow: 0 0 10px grey;
+  position: absolute;
+  right: 100px;
+  top: 62px;
+
+
+}
+
+
+h3 {
+  margin: 0 0 16px;
+  
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.divider {
+  height: 1px;
+  background: #ccc;
+  margin: 10px 0;
+
+
+}
+
+.title {
+  cursor: pointer;
+  color: blue;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.clear-btn {
+  cursor: pointer;
+  font-size: 20px;
+  color: blue;
+ 
+ 
+}
+
+
+
+.options {
+
+  box-shadow: 0 0 10px grey;
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px 20px;
+  position: absolute;
+  right: -57px;
+  top: 130px;
+  width: 150px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+
+
+/* TableStyles.css */
+.table-container {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+
+
+
+}
+
+.custom-table {
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.custom-table thead {
+  background-color: rgb(12, 12, 122);
+  color: white;
+  border-radius: 30px;
+
+}
+
+.custom-table th,
+.custom-table td {
+
+  padding: 13px;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+
+}
+
+
+.custom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

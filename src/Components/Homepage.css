@@ -1,0 +1,91 @@
+.left-side{
+    
+    display: inline-block;
+    flex-direction: column; 
+    width: 275px;
+    height: 100%;
+    background-color:#194895; 
+  border-top-right-radius: 50px;
+  
+}
+
+.left-side .logo{
+  
+    display:flex;
+    flex-direction: row;
+    width: 56px;
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 37px;
+ 
+
+   
+    
+
+}
+.left-side h2{
+  
+ margin:auto 40px;
+ color: white;
+
+}
+
+
+.menu-icon{
+  
+    cursor: pointer;
+    margin:auto;
+ 
+
+}
+.bar1{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+
+    
+
+}
+
+.list-item ul{
+    margin-top: 100px;
+    
+
+ 
+}
+
+
+
+
+.list-item li{
+    margin-left: 50px;
+    list-style: none;
+   
+   
+  
+
+}
+.list-item ul li a{
+
+   display: block;
+   text-decoration: none;
+    padding: 9px 10px;
+    margin: 12px 0px;
+   font-size: 20px;
+   color: white;
+   height: 40px;
+
+}
+.list-item ul li a:hover{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.list-item a:active{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
